@@ -133,7 +133,7 @@ per §4.2's own required audit message name), `:srtp/packet-too-short`,
 ## Verify
 
 ```sh
-clojure -M:test   # JVM only — this repo's git deps (org-ietf-rtp,
+kbb -M:test   # JVM only — this repo's git deps (org-ietf-rtp,
                    # kotoba-lang/bytes, org-nist-aes) are not yet
                    # cross-verified on the ClojureScript path here.
 ```
